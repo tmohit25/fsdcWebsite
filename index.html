@@ -1,0 +1,1004 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>FSDC</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheee" href="css/aos.css">
+
+    <!-- About us CSS  -->
+    <link rel="stylesheet" href="css\swiper-bundle.min.css">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+
+    <!--main page css-->
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body dat-spy="scroll" data-target="#navbarNav" data-offset="50">
+
+    <!-- MENU BAR -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+
+            <a class="navbar-brand1" href="index.html">
+                <img src="images/revalogo.png">
+            </a>
+
+            <a></a>
+
+            <a class="navbar-brand2" href="index.html">
+                <img src="images/FullStackLogo.png">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-lg-auto">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link smoothScroll">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#about_us" class="nav-link smoothScroll">About Us</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#events_table" class="nav-link smoothScroll">Events</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a href="#our_team" class="nav-link smoothScroll">Team</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link smoothScroll">Contact Us</a>
+                    </li>
+
+                </ul>
+
+                <div class="socialsHover">
+                    <a href="https://www.instagram.com/fsdc_reva" class="socialContainer containerOne">
+                      <svg class="socialSvg instagramSvg" viewBox="0 0 16 16"> <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path> </svg>
+                    </a>
+                      
+                    <!-- <a href="#" class="socialContainer containerTwo">
+                      <svg class="socialSvg linkdinSvg" viewBox="0 0 448 512"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path></svg>
+                    </a> -->
+                    
+                    <a href="https://chat.whatsapp.com/Ipy9fzub1tl8ucZh4Qie0J" class="socialContainer containerThree">
+                      <svg class="socialSvg whatsappSvg" viewBox="0 0 16 16"> <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"></path> </svg>
+                    </a>
+                </div> 
+
+            </div>
+
+        </div>
+    </nav>
+
+
+     <!-- HOME PAGE -->
+     <section class="hero d-flex flex-column justify-content-center align-items-center" id="home">
+
+            <div class="bg-overlay"></div>
+
+               <div class="container">
+                    <div class="row">
+
+                         <div class="col-lg-8 col-md-10 mx-auto col-12">
+                              <div class="hero-text mt-5 text-center">
+
+                                    <h6 data-aos="fade-up" data-aos-delay="300">💻From Pixels to Servers: We Speak Full Stack Fluently 💻</h6>
+
+                                    <h1 class="text-white" data-aos="fade-up" data-aos-delay="500">Full Stack Development Club</h1>
+
+                                    <a href="#our_team" class="btn custom-btn bordered mt-3" data-aos="fade-up" data-aos-delay="600">Our Team</a>
+
+                              </div>
+                         </div>
+
+                    </div>
+               </div>
+                <!-- <marquee behavior="scroll" direction="left" style="padding: 20px; background-color: rgba(240, 240, 240, 0); color: #f0f2f2;">Upcoming Events: Flutter (Batch 2) - Date 2</marquee> -->
+     </section>
+
+
+     <!-- Right Below Home -->
+     <section class="feature" id="joining_benefits">
+        <div class="container">
+            <div class="row">
+
+                <div class="d-flex flex-column justify-content-center ml-lg-auto mr-lg-5 col-lg-5 col-md-6 col-12">
+                    <h2 class="mb-3 text-white" data-aos="fade-up">Member Exclusives</h2>
+
+                    <!-- <h6 class="mb-4 text-white" data-aos="fade-up">Membership</h6> -->
+
+                    <p data-aos="fade-up" data-aos-delay="200">
+                        <ul>
+                            <li data-aos="fade-up" data-aos-delay="600">Access to Speaker Sessions</li>
+                            <li data-aos="fade-up" data-aos-delay="800">Goodies, Awards and Certificates</li>
+                            <li data-aos="fade-up" data-aos-delay="900">Workshops and Training Sessions</li>
+                            <li data-aos="fade-up" data-aos-delay="1000">Placement Guidance and Support</li>
+                            <li data-aos="fade-up" data-aos-delay="1100">Job Opportunities and Internships</li>
+                        </ul>
+                        
+
+                </div>
+
+                <div class="mr-lg-auto mt-3 col-lg-4 col-md-6 col-12">
+                     <div class="about-working-hours">
+                          <div>
+
+                                <h2 class="mb-4 text-white" data-aos="fade-up" data-aos-delay="500">Joining Benefits</h2>
+                                
+                                <p data-aos="fade-up" data-aos-delay="200">
+                                <ul>
+                                    <li data-aos="fade-up" data-aos-delay="700">Premium Learning</li>
+                                    <li data-aos="fade-up" data-aos-delay="800">Collaborative Learning</li>
+                                    <li data-aos="fade-up" data-aos-delay="900">Comprehensive Skill Development</li>
+                                    <li data-aos="fade-up" data-aos-delay="1000">Problem-Solving Skills</li>
+                                    <li data-aos="fade-up" data-aos-delay="1100">Exposure to Various Technologies</li>
+                                    <li data-aos="fade-up" data-aos-delay="1100">Resume/Portfolio Enhancement</li>
+                                </ul>
+                             </div>
+                          </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- ABOUT -->
+    <section class="about section" id="about_us">
+        <div class="container">
+            <div class="row">
+                <div class="mt-lg-5 mb-lg-0 mb-4 col-md-10 mx-auto col-12">
+                    <h2 class="mb-4 text-center" data-aos="fade-up" data-aos-delay="300">About Us</h2>
+                    <h2 class="mb-4 text-center faded" data-aos="fade-up" data-aos-delay="300">Development: Frontend & Backend</h2>
+                    <p data-aos="fade-up" data-aos-delay="400"></p>
+                    <p class="center" data-aos="fade-up" data-aos-delay="400">Full Stack Development is a university club that works on creating digital platforms' underlying functions as well as their apparent interface</p>
+                    <p class="center" data-aos="fade-up" data-aos-delay="400">Student Members concentrate on management of data (backend) and user experience (frontend) when designing and maintaining websites or applications. They study backend technologies including databases and server-side scripting, as well as UI based coding languages like Flutter, CSS, and JavaScript</p>
+                    <p class="center" data-aos="fade-up" data-aos-delay="400">They get practical experience in software development by working together on projects, which makes this group a great place for aspiring developers to polish their abilities</p>
+                </div>
+                <div class="ml-lg-auto col-lg-3 col-md-6 col-12" data-aos="fade-up" data-aos-delay="700">
+                    <!-- <div class="team-thumb">
+                        <img src="images/Grafik-Fullstack.png" class="img-fluid" alt="Trainer">
+                    </div> -->
+                </div>     
+            </div>
+        </div>
+    </section>
+
+
+     <!-- Events -->
+    <section class="schedule section" id="events_table">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-12 text-center">
+                        <h6 data-aos="fade-up">Our Periodic FSDC Events</h6>
+
+                        <h2 class="text-white" data-aos="fade-up" data-aos-delay="200">FSDC Event Table</h2>
+                    </div>
+                                        
+                    <table class="eventsTable">
+                        <thead>
+                            <tr>
+                                <th>Event Name</th>
+                                <th>Event Date</th>
+                                <th>Total Seats</th>
+                                <th>Registrations</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td data-label="Event Name">Intel Course</td>
+                                <td data-label="Event Date">1st Feb 2024</td>
+                                <td data-label="Total Seats">34</td>
+                                <!-- href="#schedule" class="btn btn__active" -->
+                                <td data-label="Booking Status"><a style="color: red;">Completed</a></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Event Name">Basic Flutter</td>
+                                <td data-label="Event Date">17th,18th,24th Feb 2024</td>
+                                <td data-label="Total Seats">33</td>
+                                <td data-label="Booking Status"><a href="Flutter1/Flutter1.html" class="btn btn__active" style="color: red;">Completed</a></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Event Name">Advanced Flutter</td>
+                                <td data-label="Event Date">16th, 17th March 2024</td>
+                                <td data-label="Total Seats">18</td>
+                                <td data-label="Booking Status"><a href="Flutter1/Flutter2.html" class="btn btn__active" style="color: red;">Completed</a></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Event Name"> Spring Boot / NodeJS </td>
+                                <td data-label="Event Date"> TBD ! </td>
+                                <td data-label="Total Seats">---</td>
+                                <td data-label="Booking Status"><a>Register</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                            
+                </div>
+            </div>
+    </section>
+
+    
+    <!-- Team -->     
+    <section class="class section" id="our_team">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-12 text-center mb-5">
+                    <h2 data-aos="fade-up">Our Team</h2>
+                </div>
+                <div class="slide-container swiper">
+                    <div class="slide-content">
+                        <div class="card-wrapper swiper-wrapper">
+
+
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+        
+                                    <div class="card-image">
+                                        <img src="images/MichaelImage.jpg" alt="" class="card-img">
+                                    </div>
+                                </div>
+        
+                                <div class="card-content">
+                                    <h2 class="name">Michael John Paul</h2>
+                                    <p class="description">Club President</p>
+                                    <p class="description">School of Computer Science & Engineering</p>
+
+                                    <div class="social-card">
+                                      <button>
+                                        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 512 512" viewBox="0 0 512 512" id="envelope"><path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20" d="M27.878,115.042c5.583-4.59,12.742-7.335,20.532-7.335H463.59c7.79,0,14.95,2.745,20.532,7.346"></path><path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20" d="M496,140.117v231.766c0,17.893-14.506,32.41-32.41,32.41H48.41c-17.9,0-32.41-14.511-32.41-32.41V140.117
+                                          c0-10.114,4.625-19.131,11.878-25.075l215.499,172.878c7.375,5.917,17.871,5.917,25.246,0l215.499-172.867
+                                          C491.375,120.986,496,130.003,496,140.117z"></path><line x1="195.769" x2="27.878" y1="249.727" y2="396.958" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20"></line><line x1="316.359" x2="484.25" y1="249.727" y2="396.958" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20"></line></svg>
+                                      </button>
+                                      <!-- <button>
+                                        <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="35px" height="35px"><path fill="#0288D1" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z"/><path fill="#FFF" d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z"/></svg>
+                                      </button> -->
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+        
+                                    <div class="card-image">
+                                        <img src="images/NisargaImage.jpg" alt="" class="card-img">
+                                    </div>
+                                </div>
+        
+                                <div class="card-content">
+                                    <h2 class="name">Nisarga Kolurmath</h2>
+                                    <p class="description">Club Vice-President</p>
+                                    <p class="description">School of Computer Science & Engineering</p>
+
+                                    <div class="social-card">
+                                      <button>
+                                        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 512 512" viewBox="0 0 512 512" id="envelope"><path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20" d="M27.878,115.042c5.583-4.59,12.742-7.335,20.532-7.335H463.59c7.79,0,14.95,2.745,20.532,7.346"></path><path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20" d="M496,140.117v231.766c0,17.893-14.506,32.41-32.41,32.41H48.41c-17.9,0-32.41-14.511-32.41-32.41V140.117
+                                          c0-10.114,4.625-19.131,11.878-25.075l215.499,172.878c7.375,5.917,17.871,5.917,25.246,0l215.499-172.867
+                                          C491.375,120.986,496,130.003,496,140.117z"></path><line x1="195.769" x2="27.878" y1="249.727" y2="396.958" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20"></line><line x1="316.359" x2="484.25" y1="249.727" y2="396.958" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20"></line></svg>
+                                      </button>
+                                      <!-- <button>
+                                        <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="35px" height="35px"><path fill="#0288D1" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z"/><path fill="#FFF" d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z"/></svg>
+                                      </button> -->
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+        
+                                    <div class="card-image">
+                                        <img src="images/MohitImage.png" alt="" class="card-img" style="text-align: center;" >
+                                    </div>
+                                </div>
+        
+                                <div class="card-content">
+                                    <h2 class="name">Mohit Choudhary</h2>
+                                    <p class="description">Technical Coordinator</p>
+                                    <p class="description">School of Computer Science & Engineering</p>
+
+                                    <div class="social-card">
+
+                                      <button>
+                                      </button>
+                                      <button>
+                                        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 512 512" viewBox="0 0 512 512" id="envelope"><path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20" d="M27.878,115.042c5.583-4.59,12.742-7.335,20.532-7.335H463.59c7.79,0,14.95,2.745,20.532,7.346"></path><path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20" d="M496,140.117v231.766c0,17.893-14.506,32.41-32.41,32.41H48.41c-17.9,0-32.41-14.511-32.41-32.41V140.117
+                                          c0-10.114,4.625-19.131,11.878-25.075l215.499,172.878c7.375,5.917,17.871,5.917,25.246,0l215.499-172.867
+                                          C491.375,120.986,496,130.003,496,140.117z"></path><line x1="195.769" x2="27.878" y1="249.727" y2="396.958" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20"></line><line x1="316.359" x2="484.25" y1="249.727" y2="396.958" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20"></line></svg>
+                                      </button>
+                                      <button>
+                                        <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="35px" height="35px"><path fill="#0288D1" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z"/><path fill="#FFF" d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z"/></svg>
+                                      </button>
+                                      <button>
+                                      </button>
+                                    
+                                    
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+        
+                                    <div class="card-image">
+                                        <img src="images/Pramukh.png" alt="" class="card-img">
+                                    </div>
+                                </div>
+        
+                                <div class="card-content">
+                                    <h2 class="name">Pramukh Sathish</h2>
+                                    <p class="description">Technical Coordinator</p>
+                                    <p class="description">School of Computer Science & Engineering</p>
+
+                                    <div class="social-card">
+
+                                      <button>
+                                      </button>
+                                      <button>
+                                        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 512 512" viewBox="0 0 512 512" id="envelope"><path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20" d="M27.878,115.042c5.583-4.59,12.742-7.335,20.532-7.335H463.59c7.79,0,14.95,2.745,20.532,7.346"></path><path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20" d="M496,140.117v231.766c0,17.893-14.506,32.41-32.41,32.41H48.41c-17.9,0-32.41-14.511-32.41-32.41V140.117
+                                          c0-10.114,4.625-19.131,11.878-25.075l215.499,172.878c7.375,5.917,17.871,5.917,25.246,0l215.499-172.867
+                                          C491.375,120.986,496,130.003,496,140.117z"></path><line x1="195.769" x2="27.878" y1="249.727" y2="396.958" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20"></line><line x1="316.359" x2="484.25" y1="249.727" y2="396.958" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20"></line></svg>
+                                      </button>
+                                      <button>
+                                        <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="35px" height="35px"><path fill="#0288D1" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z"/><path fill="#FFF" d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z"/></svg>
+                                      </button>
+                                      <button>
+                                      </button>                                    
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+        
+                                    <div class="card-image">
+                                        <img src="images/Hemang.png" alt="" class="card-img">
+                                    </div>
+                                </div>
+        
+                                <div class="card-content">
+                                    <h2 class="name">Hemang Patti</h2>
+                                    <p class="description">Event Manager</p>
+                                    <p class="description">School of Computer Science & Engineering</p>
+
+                                    <div class="social-card">
+
+                                      <button>
+                                      </button>
+                                      <button>
+                                        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 512 512" viewBox="0 0 512 512" id="envelope"><path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20" d="M27.878,115.042c5.583-4.59,12.742-7.335,20.532-7.335H463.59c7.79,0,14.95,2.745,20.532,7.346"></path><path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20" d="M496,140.117v231.766c0,17.893-14.506,32.41-32.41,32.41H48.41c-17.9,0-32.41-14.511-32.41-32.41V140.117
+                                          c0-10.114,4.625-19.131,11.878-25.075l215.499,172.878c7.375,5.917,17.871,5.917,25.246,0l215.499-172.867
+                                          C491.375,120.986,496,130.003,496,140.117z"></path><line x1="195.769" x2="27.878" y1="249.727" y2="396.958" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20"></line><line x1="316.359" x2="484.25" y1="249.727" y2="396.958" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20"></line></svg>
+                                      </button>
+                                      <button>
+                                        <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="35px" height="35px"><path fill="#0288D1" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z"/><path fill="#FFF" d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z"/></svg>
+                                      </button>
+                                      <button>
+                                      </button>
+                                    
+                                    
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+        
+                                    <div class="card-image">
+                                        <img src="images/rangashree.png.jpg" alt="" class="card-img">
+                                    </div>
+                                </div>
+        
+                                <div class="card-content">
+                                    <h2 class="name">Rangashree</h2>
+                                    <p class="description">Design Head</p>
+                                    <p class="description">School of Computer Science & Engineering</p>
+
+                                    <div class="social-card">
+
+                                      <button>
+                                      </button>
+                                      <button>
+                                        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 512 512" viewBox="0 0 512 512" id="envelope"><path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20" d="M27.878,115.042c5.583-4.59,12.742-7.335,20.532-7.335H463.59c7.79,0,14.95,2.745,20.532,7.346"></path><path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20" d="M496,140.117v231.766c0,17.893-14.506,32.41-32.41,32.41H48.41c-17.9,0-32.41-14.511-32.41-32.41V140.117
+                                          c0-10.114,4.625-19.131,11.878-25.075l215.499,172.878c7.375,5.917,17.871,5.917,25.246,0l215.499-172.867
+                                          C491.375,120.986,496,130.003,496,140.117z"></path><line x1="195.769" x2="27.878" y1="249.727" y2="396.958" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20"></line><line x1="316.359" x2="484.25" y1="249.727" y2="396.958" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20"></line></svg>
+                                      </button>
+                                      <button>
+                                        <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="35px" height="35px"><path fill="#0288D1" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z"/><path fill="#FFF" d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z"/></svg>
+                                      </button>
+                                      <button>
+                                      </button>
+                                    
+                                    
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+        
+                                    <div class="card-image">
+                                        <img src="images/Manoj.png.jpg" alt="" class="card-img">
+                                    </div>
+                                </div>
+        
+                                <div class="card-content">
+                                    <h2 class="name">Manoj G.M</h2>
+                                    <p class="description">Marketing Head</p>
+                                    <p class="description">School of Computer Science & Engineering</p>
+
+                                    <div class="social-card">
+
+                                      <button>
+                                      </button>
+                                      <button>
+                                        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 512 512" viewBox="0 0 512 512" id="envelope"><path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20" d="M27.878,115.042c5.583-4.59,12.742-7.335,20.532-7.335H463.59c7.79,0,14.95,2.745,20.532,7.346"></path><path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20" d="M496,140.117v231.766c0,17.893-14.506,32.41-32.41,32.41H48.41c-17.9,0-32.41-14.511-32.41-32.41V140.117
+                                          c0-10.114,4.625-19.131,11.878-25.075l215.499,172.878c7.375,5.917,17.871,5.917,25.246,0l215.499-172.867
+                                          C491.375,120.986,496,130.003,496,140.117z"></path><line x1="195.769" x2="27.878" y1="249.727" y2="396.958" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20"></line><line x1="316.359" x2="484.25" y1="249.727" y2="396.958" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20"></line></svg>
+                                      </button>
+                                      <button>
+                                        <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="35px" height="35px"><path fill="#0288D1" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z"/><path fill="#FFF" d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z"/></svg>
+                                      </button>
+                                      <button>
+                                      </button>
+                                    
+                                    
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+        
+                                    <div class="card-image">
+                                        <img src="images/ThanujaVerma.jpg" alt="" class="card-img">
+                                    </div>
+                                </div>
+        
+                                <div class="card-content">
+                                    <h2 class="name">S Thanuja</h2>
+                                    <p class="description">Media Head</p>
+                                    <p class="description">School of Computer Science & Engineering</p>
+
+                                    <div class="social-card">
+
+                                      <button>
+                                      </button>
+                                      <button>
+                                        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 512 512" viewBox="0 0 512 512" id="envelope"><path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20" d="M27.878,115.042c5.583-4.59,12.742-7.335,20.532-7.335H463.59c7.79,0,14.95,2.745,20.532,7.346"></path><path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20" d="M496,140.117v231.766c0,17.893-14.506,32.41-32.41,32.41H48.41c-17.9,0-32.41-14.511-32.41-32.41V140.117
+                                          c0-10.114,4.625-19.131,11.878-25.075l215.499,172.878c7.375,5.917,17.871,5.917,25.246,0l215.499-172.867
+                                          C491.375,120.986,496,130.003,496,140.117z"></path><line x1="195.769" x2="27.878" y1="249.727" y2="396.958" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20"></line><line x1="316.359" x2="484.25" y1="249.727" y2="396.958" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20"></line></svg>
+                                      </button>
+                                      <button>
+                                        <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="35px" height="35px"><path fill="#0288D1" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z"/><path fill="#FFF" d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z"/></svg>
+                                      </button>
+                                      <button>
+                                      </button>
+                                    
+                                    
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+        
+                                    <div class="card-image">
+                                        <img src="images/DirectorImage.png" alt="" class="card-img">
+                                    </div>
+                                </div>
+                                
+                                <div class="card-content">
+                                    <h2 class="name">Dr.Ashwin Kumar</h2>
+                                    <p class="description">Director of School of CSE</p>
+                                    <p class="description">School of Computer Science & Engineering</p>
+        
+                                    <div class="social-card">
+
+                                    <button>
+                                    </button>
+                                    <button class="emailButton" data-email="ashwinkumar.um@reva.edu.in">
+                                        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 512 512" viewBox="0 0 512 512" id="envelope"><path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20" d="M27.878,115.042c5.583-4.59,12.742-7.335,20.532-7.335H463.59c7.79,0,14.95,2.745,20.532,7.346"></path><path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20" d="M496,140.117v231.766c0,17.893-14.506,32.41-32.41,32.41H48.41c-17.9,0-32.41-14.511-32.41-32.41V140.117
+                                        c0-10.114,4.625-19.131,11.878-25.075l215.499,172.878c7.375,5.917,17.871,5.917,25.246,0l215.499-172.867
+                                        C491.375,120.986,496,130.003,496,140.117z"></path><line x1="195.769" x2="27.878" y1="249.727" y2="396.958" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20"></line><line x1="316.359" x2="484.25" y1="249.727" y2="396.958" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20"></line></svg>
+                                    </button>
+                                    <!-- <button>
+                                        <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="35px" height="35px"><path fill="#0288D1" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z"/><path fill="#FFF" d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z"/></svg>
+                                    </button> -->
+                                    <button>
+                                    </button>
+                                    
+                                    
+                                    </div>
+                                </div>
+                            </div>
+
+                            
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+        
+                                    <div class="card-image">
+                                        <img src="images/Priyanka.jpg" alt="" class="card-img">
+                                    </div>
+                                </div>
+        
+                                <div class="card-content">
+                                    <h2 class="name">Prof. Priyanka Bharti</h2>
+                                    <p class="description">Club Member</p>
+                                    <p class="description">School of Computer Science & Engineering</p>
+
+                                    <div class="social-card">
+
+                                      <button>
+                                      </button>
+                                      <button class="emailButton" data-email="priyanka.bharti@reva.edu.in">
+                                        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 512 512" viewBox="0 0 512 512" id="envelope"><path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20" d="M27.878,115.042c5.583-4.59,12.742-7.335,20.532-7.335H463.59c7.79,0,14.95,2.745,20.532,7.346"></path><path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20" d="M496,140.117v231.766c0,17.893-14.506,32.41-32.41,32.41H48.41c-17.9,0-32.41-14.511-32.41-32.41V140.117
+                                        c0-10.114,4.625-19.131,11.878-25.075l215.499,172.878c7.375,5.917,17.871,5.917,25.246,0l215.499-172.867
+                                        C491.375,120.986,496,130.003,496,140.117z"></path><line x1="195.769" x2="27.878" y1="249.727" y2="396.958" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20"></line><line x1="316.359" x2="484.25" y1="249.727" y2="396.958" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20"></line></svg>
+                                    </button> 
+                                      <!-- <button>
+                                        <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="35px" height="35px"><path fill="#0288D1" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z"/><path fill="#FFF" d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z"/></svg>
+                                      </button> -->
+                                      <button>
+                                      </button>
+                                    
+                                    
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card swiper-slide">
+                            <div class="image-content">
+                                    <span class="overlay"></span>
+        
+                                    <div class="card-image">
+                                        <img src="images/NarendraImage.png" alt="" class="card-img">
+                                    </div>
+                                </div>
+        
+                                <div class="card-content">
+                                    <h2 class="name">Prof. NarendraBabu</h2>
+                                    <p class="description">Club Coordinator</p>
+                                    <p class="description">School of Computer Science & Engineering</p>
+        
+                                    <div class="social-card">
+
+                                      <button>
+                                      </button>
+                                      <button class="emailButton" data-email="narendra.cr@reva.edu.in">
+                                        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 512 512" viewBox="0 0 512 512" id="envelope"><path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20" d="M27.878,115.042c5.583-4.59,12.742-7.335,20.532-7.335H463.59c7.79,0,14.95,2.745,20.532,7.346"></path><path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20" d="M496,140.117v231.766c0,17.893-14.506,32.41-32.41,32.41H48.41c-17.9,0-32.41-14.511-32.41-32.41V140.117
+                                        c0-10.114,4.625-19.131,11.878-25.075l215.499,172.878c7.375,5.917,17.871,5.917,25.246,0l215.499-172.867
+                                        C491.375,120.986,496,130.003,496,140.117z"></path><line x1="195.769" x2="27.878" y1="249.727" y2="396.958" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20"></line><line x1="316.359" x2="484.25" y1="249.727" y2="396.958" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20"></line></svg>
+                                    </button>
+                                      <!-- <button>
+                                        <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="35px" height="35px"><path fill="#0288D1" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z"/><path fill="#FFF" d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z"/></svg>
+                                      </button> -->
+                                      <button>
+                                      </button>
+                                    
+                                    
+                                    </div> 
+                                </div>
+                            </div>
+
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+        
+                                    <div class="card-image">
+                                        <img src="images/SanjuImage.png" alt="" class="card-img">
+                                    </div>
+                                </div>
+        
+                                <div class="card-content">
+                                    <h2 class="name">Dr. Sanju</h2>
+                                    <p class="description">Club Member</p>
+                                    <p class="description">School of Computer Science & Engineering</p>
+
+                                    <div class="social-card">
+
+                                      <button>
+                                      </button>
+                                      <button class="emailButton" data-email="sanju.v@reva.edu.in">
+                                        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 512 512" viewBox="0 0 512 512" id="envelope"><path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20" d="M27.878,115.042c5.583-4.59,12.742-7.335,20.532-7.335H463.59c7.79,0,14.95,2.745,20.532,7.346"></path><path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20" d="M496,140.117v231.766c0,17.893-14.506,32.41-32.41,32.41H48.41c-17.9,0-32.41-14.511-32.41-32.41V140.117
+                                        c0-10.114,4.625-19.131,11.878-25.075l215.499,172.878c7.375,5.917,17.871,5.917,25.246,0l215.499-172.867
+                                        C491.375,120.986,496,130.003,496,140.117z"></path><line x1="195.769" x2="27.878" y1="249.727" y2="396.958" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20"></line><line x1="316.359" x2="484.25" y1="249.727" y2="396.958" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20"></line></svg>
+                                    </button>
+                                      <button class="linkedin-button" data-profile-url="https://www.linkedin.com/in/dr-sanju-pillai-11040b22/">
+                                        <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="35px" height="35px">
+                                          <path fill="#0288D1" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z"/>
+                                          <path fill="#FFF" d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z"/>
+                                        </svg>
+                                      </button>
+                                      <button>
+                                      </button>
+                                    
+                                    
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+        
+                                    <div class="card-image">
+                                        <img src="images/Thanuja.png" alt="" class="card-img">
+                                    </div>
+                                </div>
+        
+                                <div class="card-content">
+                                    <h2 class="name">Prof. Thanuja</h2>
+                                    <p class="description">Club Member</p>
+                                    <p class="description">School of Computer Science & Engineering</p>
+
+                                    <div class="social-card">
+
+                                      <button>
+                                      </button>
+                                      <button class="emailButton" data-email="k.tanuja@reva.edu.in">
+                                        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 512 512" viewBox="0 0 512 512" id="envelope"><path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20" d="M27.878,115.042c5.583-4.59,12.742-7.335,20.532-7.335H463.59c7.79,0,14.95,2.745,20.532,7.346"></path><path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20" d="M496,140.117v231.766c0,17.893-14.506,32.41-32.41,32.41H48.41c-17.9,0-32.41-14.511-32.41-32.41V140.117
+                                        c0-10.114,4.625-19.131,11.878-25.075l215.499,172.878c7.375,5.917,17.871,5.917,25.246,0l215.499-172.867
+                                        C491.375,120.986,496,130.003,496,140.117z"></path><line x1="195.769" x2="27.878" y1="249.727" y2="396.958" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20"></line><line x1="316.359" x2="484.25" y1="249.727" y2="396.958" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20"></line></svg>
+                                    </button>
+                                      <!-- <button>
+                                        <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="35px" height="35px"><path fill="#0288D1" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z"/><path fill="#FFF" d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z"/></svg>
+                                      </button> -->
+                                      <button>
+                                      </button>
+                                    
+                                    
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card swiper-slide">
+                              <div class="image-content">
+                                  <span class="overlay"></span>
+      
+                                  <div class="card-image">
+                                      <img src="images/Madhuri.png" alt="" class="card-img">
+                                  </div>
+                              </div>
+      
+                              <div class="card-content">
+                                  <h2 class="name">Prof. Madhuri H D</h2>
+                                  <p class="description">Club Member</p>
+                                  <p class="description">School of Computer Science & Engineering</p>
+
+                                  <div class="social-card">
+
+                                    <button>
+                                    </button>
+                                    <button class="emailButton" data-email="k.tanuja@reva.edu.in">
+                                      <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 512 512" viewBox="0 0 512 512" id="envelope"><path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20" d="M27.878,115.042c5.583-4.59,12.742-7.335,20.532-7.335H463.59c7.79,0,14.95,2.745,20.532,7.346"></path><path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20" d="M496,140.117v231.766c0,17.893-14.506,32.41-32.41,32.41H48.41c-17.9,0-32.41-14.511-32.41-32.41V140.117
+                                      c0-10.114,4.625-19.131,11.878-25.075l215.499,172.878c7.375,5.917,17.871,5.917,25.246,0l215.499-172.867
+                                      C491.375,120.986,496,130.003,496,140.117z"></path><line x1="195.769" x2="27.878" y1="249.727" y2="396.958" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20"></line><line x1="316.359" x2="484.25" y1="249.727" y2="396.958" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20"></line></svg>
+                                  </button>
+                                    <!-- <button>
+                                      <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="35px" height="35px"><path fill="#0288D1" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z"/><path fill="#FFF" d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z"/></svg>
+                                    </button> -->
+                                    <button>
+                                    </button>
+                                  
+                                  
+                                  </div>
+                              </div>
+                          </div>
+
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+        
+                                    <div class="card-image">
+                                        <img src="images/Thirumagal.png" alt="" class="card-img">
+                                    </div>
+                                </div>
+        
+                                <div class="card-content">
+                                    <h2 class="name">Prof. Thirumagal.E</h2>
+                                    <p class="description">Club Member</p>
+                                    <p class="description">School of Computer Science & Engineering</p>
+
+                                    <div class="social-card">
+
+                                      <button>
+                                      </button>
+                                      <button class="emailButton" data-email="thirumagal.e@reva.edu.in">
+                                        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 512 512" viewBox="0 0 512 512" id="envelope"><path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20" d="M27.878,115.042c5.583-4.59,12.742-7.335,20.532-7.335H463.59c7.79,0,14.95,2.745,20.532,7.346"></path><path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20" d="M496,140.117v231.766c0,17.893-14.506,32.41-32.41,32.41H48.41c-17.9,0-32.41-14.511-32.41-32.41V140.117
+                                        c0-10.114,4.625-19.131,11.878-25.075l215.499,172.878c7.375,5.917,17.871,5.917,25.246,0l215.499-172.867
+                                        C491.375,120.986,496,130.003,496,140.117z"></path><line x1="195.769" x2="27.878" y1="249.727" y2="396.958" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20"></line><line x1="316.359" x2="484.25" y1="249.727" y2="396.958" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20"></line></svg>
+                                    </button>
+                                      <!-- <button>
+                                        <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="35px" height="35px"><path fill="#0288D1" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z"/><path fill="#FFF" d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z"/></svg>
+                                      </button> -->
+                                      <button>
+                                      </button>
+                                    
+                                    
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+        
+                                    <div class="card-image">
+                                        <img src="images/Eshwaridevi.png" alt="" class="card-img">
+                                    </div>
+                                </div>
+        
+                                <div class="card-content">
+                                    <h2 class="name">Prof. Eshwaridevi</h2>
+                                    <p class="description">Club Member</p>
+                                    <p class="description">School of Computer Science & Engineering</p>
+
+                                    <div class="social-card">
+
+                                      <button>
+                                      </button>
+                                      <button class="emailButton" data-email="eshwaridevi.jagapur@reva.edu.in">
+                                        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 512 512" viewBox="0 0 512 512" id="envelope"><path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20" d="M27.878,115.042c5.583-4.59,12.742-7.335,20.532-7.335H463.59c7.79,0,14.95,2.745,20.532,7.346"></path><path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20" d="M496,140.117v231.766c0,17.893-14.506,32.41-32.41,32.41H48.41c-17.9,0-32.41-14.511-32.41-32.41V140.117
+                                        c0-10.114,4.625-19.131,11.878-25.075l215.499,172.878c7.375,5.917,17.871,5.917,25.246,0l215.499-172.867
+                                        C491.375,120.986,496,130.003,496,140.117z"></path><line x1="195.769" x2="27.878" y1="249.727" y2="396.958" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20"></line><line x1="316.359" x2="484.25" y1="249.727" y2="396.958" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20"></line></svg>
+                                    </button>
+                                      <!-- <button>
+                                        <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="35px" height="35px"><path fill="#0288D1" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z"/><path fill="#FFF" d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z"/></svg>
+                                      </button> -->
+                                      <button>
+                                      </button>
+                                    
+                                    
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+        
+                                    <div class="card-image">
+                                        <img src="images/Shwetha.png" alt="" class="card-img">
+                                    </div>
+                                </div>
+        
+                                <div class="card-content">
+                                    <h2 class="name">Prof. Shwetha</h2>
+                                    <p class="description">Club Member</p>
+                                    <p class="description">School of Computer Science & Engineering</p>
+
+                                    <div class="social-card">
+
+                                      <button>
+                                      </button>
+                                      <button>
+                                        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 512 512" viewBox="0 0 512 512" id="envelope"><path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20" d="M27.878,115.042c5.583-4.59,12.742-7.335,20.532-7.335H463.59c7.79,0,14.95,2.745,20.532,7.346"></path><path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20" d="M496,140.117v231.766c0,17.893-14.506,32.41-32.41,32.41H48.41c-17.9,0-32.41-14.511-32.41-32.41V140.117
+                                          c0-10.114,4.625-19.131,11.878-25.075l215.499,172.878c7.375,5.917,17.871,5.917,25.246,0l215.499-172.867
+                                          C491.375,120.986,496,130.003,496,140.117z"></path><line x1="195.769" x2="27.878" y1="249.727" y2="396.958" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20"></line><line x1="316.359" x2="484.25" y1="249.727" y2="396.958" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20"></line></svg>
+                                      </button>
+                                      <!-- <button>
+                                        <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="35px" height="35px"><path fill="#0288D1" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z"/><path fill="#FFF" d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z"/></svg>
+                                      </button> -->
+                                      <button>
+                                      </button>
+                                    
+                                    
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+        
+                                    <div class="card-image">
+                                        <img src="images/Akshitha.png" alt="" class="card-img">
+                                    </div>
+                                </div>
+        
+                                <div class="card-content">
+                                    <h2 class="name">Prof. Akshitha</h2>
+                                    <p class="description">Club Member</p>
+                                    <p class="description">School of Computer Science & Engineering</p>
+
+                                    <div class="social-card">
+
+                                      <button>
+                                      </button>
+                                      <button class="emailButton" data-email="akshitha.s@reva.edu.in">
+                                        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 512 512" viewBox="0 0 512 512" id="envelope"><path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20" d="M27.878,115.042c5.583-4.59,12.742-7.335,20.532-7.335H463.59c7.79,0,14.95,2.745,20.532,7.346"></path><path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20" d="M496,140.117v231.766c0,17.893-14.506,32.41-32.41,32.41H48.41c-17.9,0-32.41-14.511-32.41-32.41V140.117
+                                        c0-10.114,4.625-19.131,11.878-25.075l215.499,172.878c7.375,5.917,17.871,5.917,25.246,0l215.499-172.867
+                                        C491.375,120.986,496,130.003,496,140.117z"></path><line x1="195.769" x2="27.878" y1="249.727" y2="396.958" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20"></line><line x1="316.359" x2="484.25" y1="249.727" y2="396.958" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20"></line></svg>
+                                    </button>
+                                      <!-- <button>
+                                        <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="35px" height="35px"><path fill="#0288D1" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z"/><path fill="#FFF" d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z"/></svg>
+                                      </button> -->
+                                      <button>
+                                      </button>
+                                    
+                                    
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+        
+                                    <div class="card-image">
+                                        <img src="images/Nithin.png" alt="" class="card-img">
+                                    </div>
+                                </div>
+        
+                                <div class="card-content">
+                                    <h2 class="name">Prof. Nithin Ramakrishnan</h2>
+                                    <p class="description">Club Member</p>
+                                    <p class="description">School of Computer Science & Engineering</p>
+
+                                    <div class="social-card">
+
+                                      <button>
+                                      </button>
+                                      <button class="emailButton" data-email="nithin.ramakrishnan@reva.edu.in">
+                                        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 512 512" viewBox="0 0 512 512" id="envelope"><path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20" d="M27.878,115.042c5.583-4.59,12.742-7.335,20.532-7.335H463.59c7.79,0,14.95,2.745,20.532,7.346"></path><path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20" d="M496,140.117v231.766c0,17.893-14.506,32.41-32.41,32.41H48.41c-17.9,0-32.41-14.511-32.41-32.41V140.117
+                                        c0-10.114,4.625-19.131,11.878-25.075l215.499,172.878c7.375,5.917,17.871,5.917,25.246,0l215.499-172.867
+                                        C491.375,120.986,496,130.003,496,140.117z"></path><line x1="195.769" x2="27.878" y1="249.727" y2="396.958" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20"></line><line x1="316.359" x2="484.25" y1="249.727" y2="396.958" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="20"></line></svg>
+                                    </button>
+                                      <!-- <button>
+                                        <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="35px" height="35px"><path fill="#0288D1" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z"/><path fill="#FFF" d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z"/></svg>
+                                      </button> -->
+                                      <button>
+                                      </button>
+                                    
+                                    
+                                    </div>
+                                </div>
+                            </div>
+
+                    </div>
+                    </div>
+        
+                    <div class="swiper-button-next swiper-navBtn"></div>
+                    <div class="swiper-button-prev swiper-navBtn"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+
+                <!-- ADD DIV TILL HERE (REMOVED TABLE TILL HERE) -->
+            </div>
+        </div>
+
+        <!-- <div class="button-container">
+            <button class="button" onclick="changeSlide(-1)">Previous</button>
+            <button class="button" onclick="changeSlide(1)">Next</button>
+        </div> -->
+
+    </section>
+     
+
+     <!-- CONTACT -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="ml-auto col-lg-5 col-md-6 col-12">
+            <h2 class="mb-4 pb-2" data-aos="fade-up" data-aos-delay="200">Join Our Core Committee?</h2>
+            
+            <!--<form id="contact-form" class="contact-form webform" role="form">
+                <input type="text" class="form-control" name="cf-name" placeholder="Name" required>
+                <input type="email" class="form-control" name="cf-email" placeholder="Email" required>
+                <textarea class="form-control" rows="5" name="cf-message" placeholder="Message" required></textarea>
+                <button type="submit" class="form-control" id="submit-button" name="submit">Send Message</button> 
+            </form> -->
+
+            <p data-aos="fade-up" data-aos-delay="300" style="text-align: center; margin: 20px 0;">
+                <br> Join our core committee and play a vital role in shaping the future of our club.<br><br>
+                You'll gain leadership experience, collaborate with like-minded individuals, and contribute to impactful events and projects.<br>
+                Help us take our club to the next level!
+            </p>           
+            
+        
+            <button type="button" class="form-control" id="submit-button" name="submit" 
+                    onclick="window.location.href='https://forms.gle/PXLxqJD66n7NzX7GA';">
+                Join Us!
+            </button>
+        
+        </div>
+        
+
+        <div class="mx-auto mt-4 mt-lg-0 mt-md-0 col-lg-5 col-md-6 col-12">
+          <h2 class="mb-4" data-aos="fade-up" data-aos-delay="600">Where you can <span>find us?</span></h2>
+
+          <p data-aos="fade-up" data-aos-delay="800"><i class="fa fa-map-marker mr-1"></i> Reva University, Bangalore Karnataka</p>
+          <div class="google-map" data-aos="fade-up" data-aos-delay="900">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3885.7205772154057!2d77.63203687369447!3d13.11687971167929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae191736187a37%3A0x3092096ba7fb4c9b!2sREVA%20UNIVERSITY!5e0!3m2!1sen!2sin!4v1709661834934!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="ml-auto col-lg-4 col-md-5">
+          <p class="copyright-text">Copyright &copy; FSDC
+            <br>Designed By Mohit and Pramukh</p>
+        </div>
+
+        <div class="d-flex justify-content-center mx-auto col-lg-5 col-md-7 col-12">
+          <p class="mr-4">
+            <i class="fa fa-envelope-o mr-1"></i>
+            <a href="mailto:fsdc.reva@gmail.com">Contact US</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!--scripts part--> 
+  <script src="js/jquery.min.js"></script> 
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/smoothscroll.js"></script>
+  <script src="js/custom.js"></script>
+
+  <!-- for ABOUT US -->
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/script.js"></script>
+
+  <script>
+    function redirectToWebsite() {
+      window.location.href = "https://forms.gle/255kC6YxTUDip2JKA"; // Replace with your actual link
+    }
+  </script> 
+
+  <script>
+    let currentSlide = 0;
+    showSlide(currentSlide);
+
+    function changeSlide(n) {
+      showSlide(currentSlide += n);
+    }
+
+    function showSlide(n) {
+      const slides = document.getElementsByClassName("class-thumb");
+      if (n >= slides.length) { currentSlide = 0; }
+      if (n < 0) { currentSlide = slides.length - 1; }
+      for (let i = 0; i < slides.length; i++) {
+        slides[i].style.opacity = 0;
+      }
+      setTimeout(() => {
+        for (let i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slides[currentSlide].style.display = "block";
+        slides[currentSlide].style.opacity = 1;
+      }, 500);
+    }
+  </script>
+ 
+
+</body>
+</html>
